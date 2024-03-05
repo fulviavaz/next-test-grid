@@ -1,7 +1,11 @@
 .main {
-  max-width: 1440px;
-  margin: 0 auto;
-  padding: 0 20px;
-  max-height: 100vh;
+    display: block;
+    width: 1440px;
+    height: 100vh;
+    margin: 0 auto;
+    columns: 4;
+    column-gap: 30px;
+    overflow: hidden;
+    position: fixed
 }
 
